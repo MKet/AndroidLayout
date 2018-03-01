@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.world.hello.layoutpoc.Table">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minWidth="25dp"
+        android:minHeight="25dp">
+        <TableLayout
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableLayout">
+            <TableRow
+                android:id="@+id/tableRow1">
+                <TextView
+                    android:text="@string/table_name"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/textView10"
+                    android:layout_width="148.6dp" />
+                <EditText
+                    android:inputType="textPersonName"
+                    android:layout_column="1"
+                    android:id="@+id/editText1"
+                    android:layout_width="197.2dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow2">
+                <TextView
+                    android:text="@string/table_City"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/textView11" />
+                <Spinner
+                    android:layout_column="1"
+                    android:id="@+id/spinner1" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow3">
+                <TextView
+                    android:text="@string/table_phoneNumber"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/textView15" />
+                <EditText
+                    android:inputType="phone"
+                    android:layout_column="1"
+                    android:id="@+id/editText2" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow4">
+                <TextView
+                    android:text="@string/table_email"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/textView2" />
+                <EditText
+                    android:inputType="textEmailAddress"
+                    android:layout_column="1"
+                    android:id="@+id/editText3" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow5">
+                <TextView
+                    android:text="@string/table_website"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/textView3" />
+                <EditText
+                    android:layout_column="1"
+                    android:id="@+id/editText4" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow6">
+                <TextView
+                    android:text="@string/table_BirthDay"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/textView18" />
+                <DatePicker
+                    android:layout_column="1"
+                    android:id="@+id/datePicker1"
+                    android:fitsSystemWindows="true" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

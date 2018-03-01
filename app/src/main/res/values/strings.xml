@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">LayoutPOC</string>
     <string name="title_activity_grid">GridActivity</string>
+    <string name="title_activity_table">Table</string>
+
+    <string name="table_name">Name</string>
+    <string name="table_phoneNumber">Phone number</string>
+    <string name="table_email">Email</string>
+    <string name="table_BirthDay">Day of birth</string>
+    <string name="table_website">Website</string>
+    <string name="table_City">City</string>
 </resources>

@@ -19,6 +19,10 @@
         <activity
             android:name=".GridActivity"
             android:label="@string/title_activity_grid"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Table"
+            android:label="@string/title_activity_table"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
