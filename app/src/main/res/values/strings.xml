@@ -9,4 +9,6 @@
     <string name="table_BirthDay">Day of birth</string>
     <string name="table_website">Website</string>
     <string name="table_City">City</string>
+    <string name="table_layout">table layout</string>
+    <string name="grid_layout">Grid Layout</string>
 </resources>
